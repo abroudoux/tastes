@@ -5,7 +5,7 @@ export const getSpotifyAlbums = async (req: string) => {
     throw new Error("No token provided");
   }
 
-  const response = await fetch(`https://api.spotify.com/v1/albums/${req}`, {
+  const response = await fetch(`https://api.spotify.com/v1/search?q=${req}&type=album&limit=10`, {
     headers: {
       Authorization: `Authorization: Bearer ${accessToken}`
     }

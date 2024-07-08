@@ -17,7 +17,7 @@ export default function InputSearch() {
   return (
     <div className="flex flex-col gap-2">
       <Label htmlFor="search">Search</Label>
-      <Input id="search" onChange={handleSearch} />
+      <Input id="search" onChange={handleSearch} value={search} />
     </div>
   );
 }
