@@ -1,6 +1,6 @@
 {
-  "name": "tastes-client",
-  "description": "",
+  "name": "tastes",
+  "description": "Greate tastes!",
   "author": {
     "name": "Arthur BROUDOUX <abroudoux>",
     "email": "arthur.broudoux@gmail.com",
@@ -30,11 +30,8 @@
     "tailwindcss": "^3.4.3"
   },
   "dependencies": {
-    "@dicebear/collection": "^8.0.1",
-    "@dicebear/core": "^8.0.1",
-    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.0.2",
-    "@radix-ui/react-toast": "^1.1.5",
     "@types/node": "^16.18.97",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
