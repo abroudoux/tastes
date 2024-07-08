@@ -1,0 +1,167 @@
+.flex-row-center {
+  @apply flex flex-row items-center;
+}
+
+.flex-row-center-start {
+  @apply flex-row-center justify-start;
+}
+
+.flex-row-center-between {
+  @apply flex-row-center justify-between;
+}
+
+.flex-row-center-center {
+  @apply flex-row-center justify-center;
+}
+
+.flex-row-center-end {
+  @apply flex-row-center justify-end;
+}
+
+.flex-row-center-evenly {
+  @apply flex-row-center justify-evenly;
+}
+
+.flex-row-center-around {
+  @apply flex-row-center justify-around;
+}
+
+.flex-row-start {
+  @apply flex flex-row items-start;
+}
+
+.flex-row-start-start {
+  @apply flex-row-start justify-start;
+}
+
+.flex-row-start-between {
+  @apply flex-row-start justify-between;
+}
+
+.flex-row-start-center {
+  @apply flex-row-start justify-center;
+}
+
+.flex-row-start-end {
+  @apply flex-row-start justify-end;
+}
+
+.flex-row-start-evenly {
+  @apply flex-row-start justify-evenly;
+}
+
+.flex-row-start-around {
+  @apply flex-row-start justify-around;
+}
+
+.flex-row-end {
+  @apply flex flex-row items-start;
+}
+
+.flex-row-end-start {
+  @apply flex-row-end justify-start;
+}
+
+.flex-row-end-between {
+  @apply flex-row-end justify-between;
+}
+
+.flex-row-end-center {
+  @apply flex-row-end justify-center;
+}
+
+.flex-row-end-end {
+  @apply flex-row-end justify-end;
+}
+
+.flex-row-end-evenly {
+  @apply flex-row-end justify-evenly;
+}
+
+.flex-row-end-around {
+  @apply flex-row-end justify-around;
+}
+
+.flex-col-center {
+  @apply flex flex-col items-center;
+}
+
+.flex-col-center-start {
+  @apply flex-col-center justify-start;
+}
+
+.flex-col-center-between {
+  @apply flex-col-center justify-between;
+}
+
+.flex-col-center-center {
+  @apply flex-col-center justify-center;
+}
+
+.flex-col-center-end {
+  @apply flex-col-center justify-end;
+}
+
+.flex-col-center-evenly {
+  @apply flex-col-center justify-evenly;
+}
+
+.flex-col-center-around {
+  @apply flex-col-center justify-around;
+}
+
+.flex-col-start {
+  @apply flex flex-col items-start;
+}
+
+.flex-col-start-start {
+  @apply flex-col-start justify-start;
+}
+
+.flex-col-start-between {
+  @apply flex-col-start justify-between;
+}
+
+.flex-col-start-center {
+  @apply flex-col-start justify-center;
+}
+
+.flex-col-start-end {
+  @apply flex-col-start justify-end;
+}
+
+.flex-col-start-evenly {
+  @apply flex-col-start justify-evenly;
+}
+
+.flex-col-start-around {
+  @apply flex-col-start justify-around;
+}
+
+.flex-col-end {
+  @apply flex flex-col items-start;
+}
+
+.flex-col-end-start {
+  @apply flex-col-end justify-start;
+}
+
+.flex-col-end-between {
+  @apply flex-col-end justify-between;
+}
+
+.flex-col-end-center {
+  @apply flex-col-end justify-center;
+}
+
+.flex-col-end-end {
+  @apply flex-col-end justify-end;
+}
+
+.flex-col-end-evenly {
+  @apply flex-col-end justify-evenly;
+}
+
+.flex-col-end-around {
+  @apply flex-col-end justify-around;
+}
