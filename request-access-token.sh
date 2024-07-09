@@ -18,7 +18,8 @@ new_access_token=`curl -X POST "https://accounts.spotify.com/api/token" \
 
 gsed -i "s/${old_access_token}/${new_access_token}/g" $env_file
 
+echo "Server restarted"
+
 lsof -ti:$port | xargs kill
 
 pnpm run dev
-

@@ -2,10 +2,6 @@
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": [
-      // "vite/client",
-      // "@testing-library/jest-dom"
-    ],
     "typeRoots": ["./typings", "./node_modules/@types"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -24,5 +20,5 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["./src", "test/Home.test.tsx"]
+  "include": ["./src", "src/meta.d.ts"]
 }
