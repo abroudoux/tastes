@@ -1,3 +1,5 @@
+import CarouselGallery from "@/components/Gallery/CarouselGallery";
+
 export default function Gallery() {
-  return <h1>gallery</h1>;
+  return <CarouselGallery />;
 }
