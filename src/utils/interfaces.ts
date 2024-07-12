@@ -33,3 +33,8 @@ export interface ItemInterface {
 export interface AlbumDetailsInterface {
   album: Album;
 }
+
+export interface HoveredAlbumInfosInterface {
+  album: Album | null;
+  isHidden: boolean;
+}

@@ -1,4 +1,4 @@
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { TextureLoader } from "three";
 import { motion } from "framer-motion-3d";
 import { useLoader } from "@react-three/fiber";

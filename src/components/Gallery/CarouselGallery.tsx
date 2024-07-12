@@ -5,9 +5,9 @@ import { X } from "lucide-react";
 import useStore from "@/lib/store";
 import type { Album } from "@/utils/types";
 
-import ItemCarouselGallery from "@/components/Gallery/ItemCarouselGallery";
 import Scene from "@/components/Gallery/Scene";
 import AlbumDetails from "@/components/Gallery/AlbumDetails";
+import HoveredAlbumInfos from "@/components/Gallery/HoveredAlbumInfos";
 
 export default function CarouselGallery() {
   const { albumsSelected } = useStore();
@@ -22,10 +22,11 @@ export default function CarouselGallery() {
 
   return (
     <section className="w-full h-full flex-col-center-center">
-      <div className="absolute z-50 bottom-10 left-10">
+      {/* <div className="absolute z-50 bottom-10 left-10">
         <p>albumData.name : {albumData?.name}</p>
         <p>hoveredAlbumData.name : {hoveredAlbumData?.name}</p>
-      </div>
+      </div> */}
+
       <div className="fixed top-0 right-0 w-full h-full">
         <Canvas>
           <Scene
@@ -35,6 +36,7 @@ export default function CarouselGallery() {
           />
         </Canvas>
       </div>
+
       {albumData && (
         <button
           onClick={() => {
@@ -51,6 +53,12 @@ export default function CarouselGallery() {
           <X size={40} className="text-white" />
         </button>
       )}
+
+      <HoveredAlbumInfos
+        album={hoveredAlbumData ? hoveredAlbumData : null}
+        isHidden={hoveredAlbumData && !albumData ? false : true}
+      />
+
       {albumData && <AlbumDetails album={albumData} />}
     </section>
   );
