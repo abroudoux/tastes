@@ -9,11 +9,11 @@ export default function BtnCreateGallery() {
   const hasEnoughAlbums = albumsSelected.length < 10 ? true : false;
 
   return (
-    <div className="w-full flex-col-start-start my-5">
-      {hasEnoughAlbums && <p className="text-red-500 text-sm">Select at least 10 albums</p>}
+    <div className="w-full flex-col-start-start gap-2 my-5">
       <Button disabled={hasEnoughAlbums ? true : false}>
         <Link to={"/gallery"}>Create gallery</Link>
       </Button>
+      {hasEnoughAlbums && <p className="text-sm">Select at least 10 albums</p>}
     </div>
   );
 }
