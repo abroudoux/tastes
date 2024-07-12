@@ -1,10 +1,12 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+
+import type { Album } from "@/utils/types";
+import { getSpotifyAlbums } from "@/utils/spotify";
+import useStore from "@/lib/store";
+
 import DropdownSuggestionsAlbums from "@/components/Search/DropdownSuggestionsAlbums";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { getSpotifyAlbums } from "@/utils/Spotify";
-import type { Album } from "@/utils/types";
-import useStore from "@/lib/store";
 
 export default function InputSearch() {
   const [search, setSearch] = useState("");
@@ -39,7 +41,7 @@ export default function InputSearch() {
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       const selectedAlbum = albums[selectedIndex];
       addAlbumSelected(selectedAlbum);
-      console.log("Selected album:", albumsSelected);
+      setSearch("");
     }
   };
 

@@ -1,13 +1,13 @@
 import { useEffect, useRef } from "react";
 import CardSuggestionAlbum from "@/components/Search/CardSuggestionAlbum";
-import { DropdownSuggestionsAlbumsProps } from "@/utils/interfaces";
+import { DropdownSuggestionsAlbumsInterface } from "@/utils/interfaces";
 import type { Album } from "@/utils/types";
 
 export default function DropdownSuggestionsAlbums({
   albums,
   isLoading,
   selectedIndex
-}: DropdownSuggestionsAlbumsProps & { selectedIndex: number }) {
+}: DropdownSuggestionsAlbumsInterface & { selectedIndex: number }) {
   const albumsToShow: Album[] = albums.slice(0, 20);
   const itemRefs = useRef<(HTMLLIElement | null)[]>([]);
 

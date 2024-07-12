@@ -6,13 +6,25 @@ export type Album = {
   images: Image[];
   release_date: string;
   total_tracks: number;
-  url: string;
+  available_markets: string[];
+  external_urls: {
+    spotify: string;
+  };
+  href: string;
+  release_date_precision: string;
+  type: string;
+  uri: string;
 };
 
 export type Artist = {
   id: string;
-  url: string;
   name: string;
+  external_urls: {
+    spotify: string;
+  };
+  href: string;
+  type: string;
+  uri: string;
 };
 
 export type Image = {

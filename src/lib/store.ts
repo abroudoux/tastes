@@ -1,18 +1,14 @@
 import { create } from "zustand";
 
 import type { Album } from "@/utils/types";
+import { StoreInterface } from "@/utils/interfaces";
 
-interface Store {
-  isLoading: boolean;
-  albumsSelected: Album[];
-  setIsLoading: (value: boolean) => void;
-  addAlbumSelected: (value: Album) => void;
-  removeAlbumSelected: (value: Album) => void;
-}
+import albums from "@/data/albums";
 
-const useStore = create<Store>((set) => ({
+const useStore = create<StoreInterface>((set) => ({
   isLoading: false,
-  albumsSelected: [],
+  // to facilitate testing, I use default data
+  albumsSelected: albums,
   setIsLoading: (value: boolean) => set({ isLoading: value }),
   addAlbumSelected: (value: Album) =>
     set((state) => ({ albumsSelected: [...state.albumsSelected, value] })),
