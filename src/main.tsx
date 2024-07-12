@@ -11,7 +11,11 @@ import "@/style/layouts.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
-    <RouterProvider router={router} />
-    <Toaster />
+    <div className="w-screen h-screen flex-col-center-center p-4 bg-black">
+      <div className="w-full h-full p-8 rounded-xl bg-white">
+        <RouterProvider router={router} />
+        <Toaster />
+      </div>
+    </div>
   </ThemeProvider>
 );

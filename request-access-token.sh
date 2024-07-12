@@ -11,9 +11,6 @@ client_id=$(extract_value "ENV_SPOTIFY_CLIENT_ID")
 client_secret=$(extract_value "ENV_SPOTIFY_CLIENT_SECRET")
 old_access_token=$(extract_value "ENV_SPOTIFY_ACCESS_TOKEN")
 port=$(extract_value "ENV_PORT")
-next_port=$port + 1
-default_port_1=5173
-default_port_2=5174
 
 new_access_token=`curl -X POST "https://accounts.spotify.com/api/token" \
      -H "Content-Type: application/x-www-form-urlencoded" \
@@ -21,11 +18,6 @@ new_access_token=`curl -X POST "https://accounts.spotify.com/api/token" \
 
 gsed -i "s/${old_access_token}/${new_access_token}/g" $env_file
 
-echo "Server restarted"
-
 lsof -ti:$port | xargs kill
-lsof -ti:$next_port | xargs kill
-lsof -ti:$default_port_1 | xargs kill
-lsof -ti:$default_port_2 | xargs kill
 
 pnpm run dev
