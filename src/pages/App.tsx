@@ -1,5 +1,7 @@
 import Header from "@/components/Global/Header";
 import SectionSearch from "@/components/Search/SectionSearch";
+import SectionAlbumsSelected from "@/components/Selection/SectionAlbumsSelected";
+import BtnCreateGallery from "@/components/Gallery/BtnCreateGallery";
 
 export default function App() {
   return (
@@ -8,6 +10,8 @@ export default function App() {
         {/* <Header /> */}
         <main>
           <SectionSearch />
+          <SectionAlbumsSelected />
+          <BtnCreateGallery />
         </main>
       </div>
     </div>

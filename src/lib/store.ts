@@ -4,16 +4,22 @@ import type { Album } from "@/utils/types";
 
 interface Store {
   isLoading: boolean;
+  albumsSelected: Album[];
   setIsLoading: (value: boolean) => void;
-  albums: Album[];
-  setAlbums: (value: Album[]) => void;
+  addAlbumSelected: (value: Album) => void;
+  removeAlbumSelected: (value: Album) => void;
 }
 
 const useStore = create<Store>((set) => ({
   isLoading: false,
-  albums: [],
+  albumsSelected: [],
   setIsLoading: (value: boolean) => set({ isLoading: value }),
-  setAlbums: (value: Album[]) => set({ albums: value })
+  addAlbumSelected: (value: Album) =>
+    set((state) => ({ albumsSelected: [...state.albumsSelected, value] })),
+  removeAlbumSelected: (value: Album) =>
+    set((state) => ({
+      albumsSelected: state.albumsSelected.filter((album) => album.id !== value.id)
+    }))
 }));
 
 export default useStore;
