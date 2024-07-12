@@ -1,18 +1,14 @@
 import { OrthographicCamera } from "@react-three/drei";
 import { Vector3, MathUtils, OrthographicCamera as ThreeOrthographicCamera } from "three";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import { useScroll, useTransform } from "framer-motion";
 import { useFrame } from "@react-three/fiber";
 
 import albums from "@/data/albums";
 
-import Item from "@/components/Gallery/Item";
+import { SceneInterface } from "@/utils/interfaces";
 
-interface SceneInterface {
-  setCurrentAlbumData: (albumData: any) => void;
-  setHoveredAlbumData: (albumData: any) => void;
-  currentAlbumData: any;
-}
+import Item from "@/components/Gallery/Item";
 
 export default function Scene(props: SceneInterface) {
   const cameraRef = useRef<ThreeOrthographicCamera>(null);
@@ -25,20 +21,18 @@ export default function Scene(props: SceneInterface) {
   );
   const [cameraX, cameraY, cameraZ] = [3, 4, 4];
 
-  // CHANGER LA POSITION Z DE LA CAMÉRA AU SCROLL
   useEffect(() => {
     return zValue.on("change", (latest) => {
-      if (cameraRef.current && !props.currentAlbumData) {
+      if (cameraRef.current && !props.albumData) {
         cameraRef.current.position.z = latest;
       }
     });
-  }, [zValue, props.currentAlbumData]);
+  }, [zValue, props.albumData]);
 
-  // CHANGER LA POSITION/ROTATION DE LA CAMERA EN FONCTION DE SI LE CURRENTALBUMDATA EST NULL OU NON
   useFrame(() => {
-    if (props.currentAlbumData && cameraRef.current) {
+    if (props.albumData && cameraRef.current && props.albumData.customPosition) {
       cameraRef.current.position.lerp(
-        new Vector3(1.5, 0.5, props.currentAlbumData.position[2] + 2),
+        new Vector3(1.5, 0.5, props.albumData.customPosition[2] + 2),
         0.1
       );
       cameraRef.current.rotation.x = MathUtils.lerp(cameraRef.current.rotation.x, 0, 0.06);
@@ -46,16 +40,15 @@ export default function Scene(props: SceneInterface) {
     }
   });
 
-  // RESET LA POSITION DE LA CAMERA QUAND ON REVIENT À LA VUE GLOBALE
   useEffect(() => {
-    if (!props.currentAlbumData && cameraRef.current) {
+    if (!props.albumData && cameraRef.current) {
       cameraRef.current.position.x = cameraX;
       cameraRef.current.position.y = cameraY;
       cameraRef.current.position.z = cameraZ;
       cameraRef.current.rotation.x = Math.atan(-1 / Math.sqrt(2));
       cameraRef.current.rotation.y = Math.PI / 5;
     }
-  }, [props.currentAlbumData, cameraX, cameraY, cameraZ]);
+  }, [props.albumData, cameraX, cameraY, cameraZ]);
 
   return (
     <>
@@ -81,13 +74,14 @@ export default function Scene(props: SceneInterface) {
 
           return (
             <Item
-              isACoverClicked={!!props.currentAlbumData}
+              isACoverClicked={!!props.albumData}
+              isSelected={props.albumData?.id === album.id}
               position={position}
               size={size}
-              key={album.name}
-              album={{ cover: album.images[0].url }}
+              key={album.id}
+              album={{ ...album, customPosition: position }}
               index={index}
-              handleClick={props.setCurrentAlbumData}
+              handleClick={props.setAlbumData}
               handleHover={props.setHoveredAlbumData}
             />
           );

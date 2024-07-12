@@ -14,6 +14,7 @@ export type Album = {
   release_date_precision: string;
   type: string;
   uri: string;
+  customPosition?: [number, number, number];
 };
 
 export type Artist = {

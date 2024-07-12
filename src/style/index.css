@@ -55,6 +55,10 @@
   scroll-behavior: smooth;
 }
 
+body {
+  min-height: 600vh;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
