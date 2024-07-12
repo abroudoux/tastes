@@ -15,13 +15,9 @@ interface SceneInterface {
 }
 
 export default function Scene(props: SceneInterface) {
-  const [renderAllCovers, setRenderAllCovers] = useState(true);
   const cameraRef = useRef<ThreeOrthographicCamera>(null);
   const { scrollY } = useScroll();
-
-  // TODO : understand the values of the two last variables
   const maxZ = (albums.length - 1) * -0.4 + 4;
-  // TODO : understand this hook
   const zValue = useTransform(
     scrollY,
     [0, document.body.scrollHeight - window.innerHeight],
@@ -37,17 +33,6 @@ export default function Scene(props: SceneInterface) {
       }
     });
   }, [zValue, props.currentAlbumData]);
-
-  // GÉRER LE RENDU OU NON DE TOUTES LES COVERS
-  useEffect(() => {
-    if (props.currentAlbumData) {
-      setTimeout(() => {
-        setRenderAllCovers(false);
-      }, 500);
-    } else {
-      setRenderAllCovers(true);
-    }
-  }, [props.currentAlbumData]);
 
   // CHANGER LA POSITION/ROTATION DE LA CAMERA EN FONCTION DE SI LE CURRENTALBUMDATA EST NULL OU NON
   useFrame(() => {
@@ -89,43 +74,22 @@ export default function Scene(props: SceneInterface) {
         rotation-x={Math.atan(-1 / Math.sqrt(2))}
       />
       <ambientLight intensity={3} />
-      {/* <directionalLight position={[10, 0, 0]} /> */}
-
-      {/* <axesHelper args={[5]} /> */}
-      {/* <OrbitControls camera={cameraRef.current} /> */}
       <group>
         {albums.map((album, index) => {
-          const position: [number, number, number] = [0.5, 0.5, index * -0.4]; // Typage explicite
+          const position: [number, number, number] = [0.5, 0.5, index * -0.4];
           const size: [number, number, number] = [1, 1, 1];
 
-          if (renderAllCovers) {
-            return (
-              <Item
-                isACoverClicked={!!props.currentAlbumData}
-                position={position}
-                size={size}
-                key={album.name}
-                album={{ cover: album.images[0].url }} // Pass an object with cover property
-                index={index}
-                handleClick={props.setCurrentAlbumData}
-                handleHover={props.setHoveredAlbumData}
-              />
-            );
-          }
-
           return (
-            props.currentAlbumData?.index === index && (
-              <Item
-                isACoverClicked={!!props.currentAlbumData}
-                position={position}
-                size={size}
-                key={album.name}
-                album={{ cover: album.images[0].url }} // Pass an object with cover property
-                index={index}
-                handleClick={props.setCurrentAlbumData}
-                handleHover={props.setHoveredAlbumData}
-              />
-            )
+            <Item
+              isACoverClicked={!!props.currentAlbumData}
+              position={position}
+              size={size}
+              key={album.name}
+              album={{ cover: album.images[0].url }}
+              index={index}
+              handleClick={props.setCurrentAlbumData}
+              handleHover={props.setHoveredAlbumData}
+            />
           );
         })}
       </group>
