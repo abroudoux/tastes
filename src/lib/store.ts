@@ -8,7 +8,7 @@ import albums from "@/data/albums";
 const useStore = create<StoreInterface>((set) => ({
   isLoading: false,
   // to facilitate testing, I use default data
-  albumsSelected: albums,
+  albumsSelected: [...albums],
   setIsLoading: (value: boolean) => set({ isLoading: value }),
   addAlbumSelected: (value: Album) =>
     set((state) => ({ albumsSelected: [...state.albumsSelected, value] })),

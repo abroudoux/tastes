@@ -31,58 +31,13 @@ const AlbumDetails = (props: AlbumDetailsInterface) => {
         </motion.h3>
       </div>
 
-      {/* LISTE DES TITRES */}
-      {/* <div className="flex flex-col h-full overflow-y-scroll scroll-ml-10">
-        {props.songs.map((song, index) => (
-          <motion.div
-            key={song.title + " - " + props.artist}
-            className={`flex gap-40 items-center justify-between px-4 py-2 cursor-pointer rounded-lg hover:bg-[#F1F1F1] transition-colors duration-100 ${
-              props.name === playingprops?.name &&
-              props.artist === playingprops?.artist &&
-              index === playingSongIndex
-                ? "bg-[#F1F1F1]"
-                : ""
-            }`}
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{
-              delay: 0.3 + index * 0.1,
-              duration: 0.4,
-              ease: "easeOut"
-            }}
-            onClick={() => {
-              setPlayingprops(props);
-              setPlayingSongIndex(index);
-            }}>
-            <div className="flex items-center">
-              <p className="font-semibold w-7 text-sm">{index + 1}.</p>
-              <div className="flex gap-2 items-center">
-                <h3
-                  className={`relative text-lg text-neutral-900 ${
-                    props.name === playingprops?.name &&
-                    props.artist === playingprops?.artist &&
-                    index === playingSongIndex
-                      ? "font-semibold"
-                      : ""
-                  }`}>
-                  {song.title}
-                  <div className="absolute -right-8 top-1/2 -translate-y-1/2">
-                    {props.name === playingprops?.name &&
-                      props.artist === playingprops?.artist &&
-                      index === playingSongIndex && <AudioAnimatedIcon />}
-                  </div>
-                </h3>
-              </div>
-            </div>
-
-            <img
-              src={song.isLoved ? "/img/icons/heart-filled.svg" : "/img/icons/heart.svg"}
-              alt="Icone de coeur"
-              className="w-5 h-5"
-            />
-          </motion.div>
+      <ul className="flex flex-col h-full overflow-y-scroll scroll-ml-10">
+        {props.album.tracks?.map((song, index) => (
+          <li key={song.id}>
+            {index + 1}. {song.name}
+          </li>
         ))}
-      </div> */}
+      </ul>
     </div>
   );
 };

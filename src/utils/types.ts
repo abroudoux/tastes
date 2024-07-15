@@ -6,7 +6,6 @@ export type Album = {
   images: Image[];
   release_date: string;
   total_tracks: number;
-  available_markets: string[];
   external_urls: {
     spotify: string;
   };

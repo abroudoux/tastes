@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import type { Album } from "@/utils/types";
+import type { Album, Track } from "@/utils/types";
 import { getSpotifyAlbums, getTracksFromAlbum } from "@/utils/spotify";
 import useStore from "@/lib/store";
 
@@ -40,9 +40,16 @@ export default function InputSearch() {
       setSelectedIndex((prevIndex) => (prevIndex <= 0 ? albums.length - 1 : prevIndex - 1));
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       const selectedAlbum = albums[selectedIndex];
-      const tracks = await getTracksFromAlbum(selectedAlbum.id);
-      albumsSelected.push({ ...selectedAlbum, tracks });
-      addAlbumSelected(selectedAlbum);
+      const tracks: Track[] = await getTracksFromAlbum(selectedAlbum.id);
+
+      const albumWithTracks = { ...selectedAlbum, tracks };
+
+      const albumExists = albumsSelected.some((album) => album.id === selectedAlbum.id);
+      if (!albumExists) {
+        addAlbumSelected(albumWithTracks);
+      }
+
+      console.log(albumsSelected);
       setSearch("");
     }
   };
