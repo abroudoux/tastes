@@ -5,6 +5,11 @@ export interface DropdownSuggestionsAlbumsInterface {
   isLoading: boolean;
 }
 
+export interface CardAlbumSelectedInterface {
+  album: Album;
+  handleRemoveAlbum: (album: Album) => void;
+}
+
 export interface StoreInterface {
   isLoading: boolean;
   albumsSelected: Album[];

@@ -7,12 +7,14 @@ import useStore from "@/lib/store";
 import DropdownSuggestionsAlbums from "@/components/Search/DropdownSuggestionsAlbums";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { useToast } from "@/components/ui/use-toast";
 
 export default function InputSearch() {
   const [search, setSearch] = useState("");
   const [albums, setAlbums] = useState<Album[]>([]);
   const [selectedIndex, setSelectedIndex] = useState<number>(-1);
   const { isLoading, setIsLoading, addAlbumSelected, albumsSelected } = useStore();
+  const { toast } = useToast();
 
   const handleSearch = async (e: React.ChangeEvent<HTMLInputElement>) => {
     setIsLoading(true);
@@ -25,6 +27,10 @@ export default function InputSearch() {
         setSelectedIndex(-1);
       } catch (error) {
         console.error("Error fetching albums: ", error);
+        toast({
+          variant: "destructive",
+          description: "Error fetching albums"
+        });
       }
     } else {
       setAlbums([]);
@@ -41,15 +47,30 @@ export default function InputSearch() {
     } else if (e.key === "Enter" && selectedIndex >= 0) {
       const selectedAlbum = albums[selectedIndex];
       const tracks: Track[] = await getTracksFromAlbum(selectedAlbum.id);
-
       const albumWithTracks = { ...selectedAlbum, tracks };
+      const albumExists = albums.some((album) => album.id === selectedAlbum.id);
 
-      const albumExists = albumsSelected.some((album) => album.id === selectedAlbum.id);
-      if (!albumExists) {
-        addAlbumSelected(albumWithTracks);
+      if (albumExists) {
+        toast({
+          variant: "destructive",
+          description: "Album already selected"
+        });
+        return;
       }
 
-      console.log(albumsSelected);
+      if (albums.length >= 20) {
+        toast({
+          variant: "destructive",
+          description: "You can select up to 20 albums"
+        });
+        return;
+      }
+
+      addAlbumSelected(albumWithTracks);
+      toast({
+        variant: "default",
+        description: "Album added"
+      });
       setSearch("");
     }
   };
