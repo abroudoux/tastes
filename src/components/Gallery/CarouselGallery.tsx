@@ -22,11 +22,6 @@ export default function CarouselGallery() {
 
   return (
     <section className="w-full h-full flex-col-center-center">
-      {/* <div className="absolute z-50 bottom-10 left-10">
-        <p>albumData.name : {albumData?.name}</p>
-        <p>hoveredAlbumData.name : {hoveredAlbumData?.name}</p>
-      </div> */}
-
       <div className="fixed top-0 right-0 w-full h-full">
         <Canvas>
           <Scene
@@ -43,10 +38,8 @@ export default function CarouselGallery() {
             setDisplayOverlay(true);
             setTimeout(() => {
               setAlbumData(null);
-            }, 500);
-            setTimeout(() => {
-              setDisplayOverlay(false);
-            }, 800);
+            }, 300);
+            setDisplayOverlay(false);
             window.scrollTo(0, 0);
           }}
           className="absolute left-20 top-1/2 p-2 rounded-full bg-neutral-900 hover:scale-105 transition-transform duration-200">
