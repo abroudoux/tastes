@@ -15,193 +15,6 @@ const albums: Album[] = [
         uri: "spotify:artist:778Snztf3N5DXp0kHGFl3g"
       }
     ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "BY",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "PR",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
-    ],
     external_urls: {
       spotify: "https://open.spotify.com/album/1n0eLcrd6H5Oazvp8sYgq0"
     },
@@ -229,7 +42,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 13,
     type: "album",
-    uri: "spotify:album:1n0eLcrd6H5Oazvp8sYgq0"
+    uri: "spotify:album:1n0eLcrd6H5Oazvp8sYgq0",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -244,185 +378,6 @@ const albums: Album[] = [
         type: "artist",
         uri: "spotify:artist:4uFZsG1vXrPcvnZ4iSQyrx"
       }
-    ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "PR",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CG",
-      "TJ",
-      "VE",
-      "ET"
     ],
     external_urls: {
       spotify: "https://open.spotify.com/album/3Gt7rOjcZQoHCfnKl5AkK7"
@@ -451,7 +406,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 24,
     type: "album",
-    uri: "spotify:album:3Gt7rOjcZQoHCfnKl5AkK7"
+    uri: "spotify:album:3Gt7rOjcZQoHCfnKl5AkK7",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -466,192 +742,6 @@ const albums: Album[] = [
         type: "artist",
         uri: "spotify:artist:3bRGJQd7b4lE3ZAEMfOXJp"
       }
-    ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "BY",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
     ],
     external_urls: {
       spotify: "https://open.spotify.com/album/2rYWseZkKpXd63uixoE0m0"
@@ -680,7 +770,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 18,
     type: "album",
-    uri: "spotify:album:2rYWseZkKpXd63uixoE0m0"
+    uri: "spotify:album:2rYWseZkKpXd63uixoE0m0",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -695,193 +1106,6 @@ const albums: Album[] = [
         type: "artist",
         uri: "spotify:artist:37WN9wVcFeSENlGkjNDsey"
       }
-    ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "BY",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "PR",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
     ],
     external_urls: {
       spotify: "https://open.spotify.com/album/2dlwvDoGntR9eYov4q7xQA"
@@ -910,7 +1134,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 17,
     type: "album",
-    uri: "spotify:album:2dlwvDoGntR9eYov4q7xQA"
+    uri: "spotify:album:2dlwvDoGntR9eYov4q7xQA",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -925,193 +1470,6 @@ const albums: Album[] = [
         type: "artist",
         uri: "spotify:artist:37WN9wVcFeSENlGkjNDsey"
       }
-    ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "BY",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "PR",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
     ],
     external_urls: {
       spotify: "https://open.spotify.com/album/6ym0ak9Ei2tSLfJm5Eu4Kq"
@@ -1140,7 +1498,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 15,
     type: "album",
-    uri: "spotify:album:6ym0ak9Ei2tSLfJm5Eu4Kq"
+    uri: "spotify:album:6ym0ak9Ei2tSLfJm5Eu4Kq",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -1155,191 +1834,6 @@ const albums: Album[] = [
         type: "artist",
         uri: "spotify:artist:6icQOAFXDZKsumw3YXyusw"
       }
-    ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
     ],
     external_urls: {
       spotify: "https://open.spotify.com/album/6Per97deaWqrJlKQNX8RGK"
@@ -1368,7 +1862,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 14,
     type: "album",
-    uri: "spotify:album:6Per97deaWqrJlKQNX8RGK"
+    uri: "spotify:album:6Per97deaWqrJlKQNX8RGK",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -1383,193 +2198,6 @@ const albums: Album[] = [
         type: "artist",
         uri: "spotify:artist:7eZbNxarrTW4VkRI8u9aDX"
       }
-    ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "BY",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "PR",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
     ],
     external_urls: {
       spotify: "https://open.spotify.com/album/5IyHtkKQvafw7bQYFnx4FO"
@@ -1598,7 +2226,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 10,
     type: "album",
-    uri: "spotify:album:5IyHtkKQvafw7bQYFnx4FO"
+    uri: "spotify:album:5IyHtkKQvafw7bQYFnx4FO",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -1613,193 +2562,6 @@ const albums: Album[] = [
         type: "artist",
         uri: "spotify:artist:6mMCSCuTbGU6kNr4303LwH"
       }
-    ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "BY",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "PR",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
     ],
     external_urls: {
       spotify: "https://open.spotify.com/album/5Sx8y2k3MGCYhic1Dwe3dc"
@@ -1828,7 +2590,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 15,
     type: "album",
-    uri: "spotify:album:5Sx8y2k3MGCYhic1Dwe3dc"
+    uri: "spotify:album:5Sx8y2k3MGCYhic1Dwe3dc",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -1843,193 +2926,6 @@ const albums: Album[] = [
         type: "artist",
         uri: "spotify:artist:2xvtxDNInKDV4AvGmjw6d1"
       }
-    ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "BY",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "PR",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
     ],
     external_urls: {
       spotify: "https://open.spotify.com/album/38grabLpTHYySHEyG0TyUN"
@@ -2058,7 +2954,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 16,
     type: "album",
-    uri: "spotify:album:38grabLpTHYySHEyG0TyUN"
+    uri: "spotify:album:38grabLpTHYySHEyG0TyUN",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   },
   {
     album_type: "album",
@@ -2094,193 +3311,6 @@ const albums: Album[] = [
         uri: "spotify:artist:2pAWfrd7WFF3XhVt9GooDL"
       }
     ],
-    available_markets: [
-      "AR",
-      "AU",
-      "AT",
-      "BE",
-      "BO",
-      "BR",
-      "BG",
-      "CA",
-      "CL",
-      "CO",
-      "CR",
-      "CY",
-      "CZ",
-      "DK",
-      "DO",
-      "DE",
-      "EC",
-      "EE",
-      "SV",
-      "FI",
-      "FR",
-      "GR",
-      "GT",
-      "HN",
-      "HK",
-      "HU",
-      "IS",
-      "IE",
-      "IT",
-      "LV",
-      "LT",
-      "LU",
-      "MY",
-      "MT",
-      "MX",
-      "NL",
-      "NZ",
-      "NI",
-      "NO",
-      "PA",
-      "PY",
-      "PE",
-      "PH",
-      "PL",
-      "PT",
-      "SG",
-      "SK",
-      "ES",
-      "SE",
-      "CH",
-      "TW",
-      "TR",
-      "UY",
-      "US",
-      "GB",
-      "AD",
-      "LI",
-      "MC",
-      "ID",
-      "JP",
-      "TH",
-      "VN",
-      "RO",
-      "IL",
-      "ZA",
-      "SA",
-      "AE",
-      "BH",
-      "QA",
-      "OM",
-      "KW",
-      "EG",
-      "MA",
-      "DZ",
-      "TN",
-      "LB",
-      "JO",
-      "PS",
-      "IN",
-      "BY",
-      "KZ",
-      "MD",
-      "UA",
-      "AL",
-      "BA",
-      "HR",
-      "ME",
-      "MK",
-      "RS",
-      "SI",
-      "KR",
-      "BD",
-      "PK",
-      "LK",
-      "GH",
-      "KE",
-      "NG",
-      "TZ",
-      "UG",
-      "AG",
-      "AM",
-      "BS",
-      "BB",
-      "BZ",
-      "BT",
-      "BW",
-      "BF",
-      "CV",
-      "CW",
-      "DM",
-      "FJ",
-      "GM",
-      "GE",
-      "GD",
-      "GW",
-      "GY",
-      "HT",
-      "JM",
-      "KI",
-      "LS",
-      "LR",
-      "MW",
-      "MV",
-      "ML",
-      "MH",
-      "FM",
-      "NA",
-      "NR",
-      "NE",
-      "PW",
-      "PG",
-      "PR",
-      "WS",
-      "SM",
-      "ST",
-      "SN",
-      "SC",
-      "SL",
-      "SB",
-      "KN",
-      "LC",
-      "VC",
-      "SR",
-      "TL",
-      "TO",
-      "TT",
-      "TV",
-      "VU",
-      "AZ",
-      "BN",
-      "BI",
-      "KH",
-      "CM",
-      "TD",
-      "KM",
-      "GQ",
-      "SZ",
-      "GA",
-      "GN",
-      "KG",
-      "LA",
-      "MO",
-      "MR",
-      "MN",
-      "NP",
-      "RW",
-      "TG",
-      "UZ",
-      "ZW",
-      "BJ",
-      "MG",
-      "MU",
-      "MZ",
-      "AO",
-      "CI",
-      "DJ",
-      "ZM",
-      "CD",
-      "CG",
-      "IQ",
-      "LY",
-      "TJ",
-      "VE",
-      "ET",
-      "XK"
-    ],
     external_urls: {
       spotify: "https://open.spotify.com/album/19bQiwEKhXUBJWY6oV3KZk"
     },
@@ -2308,7 +3338,328 @@ const albums: Album[] = [
     release_date_precision: "day",
     total_tracks: 22,
     type: "album",
-    uri: "spotify:album:19bQiwEKhXUBJWY6oV3KZk"
+    uri: "spotify:album:19bQiwEKhXUBJWY6oV3KZk",
+    tracks: [
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 122080,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/1y5hnQJSwF7Rp8uh66yPQp"
+        },
+        href: "https://api.spotify.com/v1/tracks/1y5hnQJSwF7Rp8uh66yPQp",
+        id: "1y5hnQJSwF7Rp8uh66yPQp",
+        is_local: false,
+        name: "...",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/e29a7635ee393447d378836a010b891f2645438d?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 1,
+        type: "track",
+        uri: "spotify:track:1y5hnQJSwF7Rp8uh66yPQp"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 183293,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5kRJ8GyaiTeE9u0ZCw1ySm"
+        },
+        href: "https://api.spotify.com/v1/tracks/5kRJ8GyaiTeE9u0ZCw1ySm",
+        id: "5kRJ8GyaiTeE9u0ZCw1ySm",
+        is_local: false,
+        name: "plus rien n'est grave",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/57cc17723091b87822ad667d896b217909331637?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 2,
+        type: "track",
+        uri: "spotify:track:5kRJ8GyaiTeE9u0ZCw1ySm"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 177973,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2QG8AhrFYWa0MrdJRLyPOf"
+        },
+        href: "https://api.spotify.com/v1/tracks/2QG8AhrFYWa0MrdJRLyPOf",
+        id: "2QG8AhrFYWa0MrdJRLyPOf",
+        is_local: false,
+        name: "xénon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/4da0a31e218b9c9312d5473b057596d0b1d9a971?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 3,
+        type: "track",
+        uri: "spotify:track:2QG8AhrFYWa0MrdJRLyPOf"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 175333,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/76KHkoyMPy4wBPzIPVKtqN"
+        },
+        href: "https://api.spotify.com/v1/tracks/76KHkoyMPy4wBPzIPVKtqN",
+        id: "76KHkoyMPy4wBPzIPVKtqN",
+        is_local: false,
+        name: "pardon",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/bc71b47a134aaf8302f8d88489a0cf3e91ee2a7e?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 4,
+        type: "track",
+        uri: "spotify:track:76KHkoyMPy4wBPzIPVKtqN"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 149933,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/6ENkzXADUXpRQPXX2Tvm8M"
+        },
+        href: "https://api.spotify.com/v1/tracks/6ENkzXADUXpRQPXX2Tvm8M",
+        id: "6ENkzXADUXpRQPXX2Tvm8M",
+        is_local: false,
+        name: "sln vie",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a69f6f13c263de54ab003ff9eedc086ee7fb0c42?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 5,
+        type: "track",
+        uri: "spotify:track:6ENkzXADUXpRQPXX2Tvm8M"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 38920,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3B21rRsPyB6IaqDo8Gt1Eg"
+        },
+        href: "https://api.spotify.com/v1/tracks/3B21rRsPyB6IaqDo8Gt1Eg",
+        id: "3B21rRsPyB6IaqDo8Gt1Eg",
+        is_local: false,
+        name: "merci..",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/c851d9330f7d51af32d6f8635fe1729984cc7a83?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 6,
+        type: "track",
+        uri: "spotify:track:3B21rRsPyB6IaqDo8Gt1Eg"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 156333,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/2JnSPBFrjEajrJ9cEDPQuM"
+        },
+        href: "https://api.spotify.com/v1/tracks/2JnSPBFrjEajrJ9cEDPQuM",
+        id: "2JnSPBFrjEajrJ9cEDPQuM",
+        is_local: false,
+        name: "plafond",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/3b7043453aba62175c038872680aa169c1f49704?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 7,
+        type: "track",
+        uri: "spotify:track:2JnSPBFrjEajrJ9cEDPQuM"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 179826,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/7opukfjVL6mVuylYYt4wUR"
+        },
+        href: "https://api.spotify.com/v1/tracks/7opukfjVL6mVuylYYt4wUR",
+        id: "7opukfjVL6mVuylYYt4wUR",
+        is_local: false,
+        name: "le bus",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/9ba32580e3b58c252786634f9277a133e3194c5f?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 8,
+        type: "track",
+        uri: "spotify:track:7opukfjVL6mVuylYYt4wUR"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 136693,
+        explicit: false,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/4KtpRosJMJqJvmU5i8aoEc"
+        },
+        href: "https://api.spotify.com/v1/tracks/4KtpRosJMJqJvmU5i8aoEc",
+        id: "4KtpRosJMJqJvmU5i8aoEc",
+        is_local: false,
+        name: "être moi",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/a5062ab7215313e6acdd2864e7e0ec22c8a42f73?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 9,
+        type: "track",
+        uri: "spotify:track:4KtpRosJMJqJvmU5i8aoEc"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 141613,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/3IoWSPJyq1bzrKrlNWgAo4"
+        },
+        href: "https://api.spotify.com/v1/tracks/3IoWSPJyq1bzrKrlNWgAo4",
+        id: "3IoWSPJyq1bzrKrlNWgAo4",
+        is_local: false,
+        name: "chromé",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/b3fd4d5a0adb7daa65c9a962b3e5fdc8be5a89c2?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 10,
+        type: "track",
+        uri: "spotify:track:3IoWSPJyq1bzrKrlNWgAo4"
+      },
+      {
+        artists: [
+          {
+            external_urls: {
+              spotify: "https://open.spotify.com/artist/49qUD3ZuoOWEXwLgDwa3Eg"
+            },
+            href: "https://api.spotify.com/v1/artists/49qUD3ZuoOWEXwLgDwa3Eg",
+            id: "49qUD3ZuoOWEXwLgDwa3Eg",
+            name: "Wallace Cleaver",
+            type: "artist",
+            uri: "spotify:artist:49qUD3ZuoOWEXwLgDwa3Eg"
+          }
+        ],
+        disc_number: 1,
+        duration_ms: 444320,
+        explicit: true,
+        external_urls: {
+          spotify: "https://open.spotify.com/track/5Gr7L38hFMwkMCwKTtvpis"
+        },
+        href: "https://api.spotify.com/v1/tracks/5Gr7L38hFMwkMCwKTtvpis",
+        id: "5Gr7L38hFMwkMCwKTtvpis",
+        is_local: false,
+        name: "marcel.",
+        preview_url:
+          "https://p.scdn.co/mp3-preview/92c41151a85449357442b7f7e5798e822bd37a44?cid=c7799f7a89dd44399dc6a024bbfec646",
+        track_number: 11,
+        type: "track",
+        uri: "spotify:track:5Gr7L38hFMwkMCwKTtvpis"
+      }
+    ]
   }
 ];
 

@@ -6,7 +6,6 @@ export type Album = {
   images: Image[];
   release_date: string;
   total_tracks: number;
-  available_markets: string[];
   external_urls: {
     spotify: string;
   };
@@ -14,6 +13,8 @@ export type Album = {
   release_date_precision: string;
   type: string;
   uri: string;
+  customPosition?: [number, number, number];
+  tracks?: Track[];
 };
 
 export type Artist = {
@@ -31,4 +32,22 @@ export type Image = {
   url: string;
   height: number;
   width: number;
+};
+
+export type Track = {
+  id: string;
+  name: string;
+  artists: Artist[];
+  disc_number: number;
+  duration_ms: number;
+  explicit: boolean;
+  external_urls: {
+    spotify: string;
+  };
+  href: string;
+  is_local: boolean;
+  preview_url: string;
+  track_number: number;
+  type: string;
+  uri: string;
 };
